@@ -1,0 +1,56 @@
+{
+  "_from": "vue-contextmenujs",
+  "_id": "vue-contextmenujs@1.3.13",
+  "_inBundle": false,
+  "_integrity": "sha512-P5ihsM6bfEUcSQZu2ifukYtv17mg4dcwyU04CN1sg8ItZbcsCeAs6orj2SCgDgquuHTLWVUL6nOu12x+OLM+eA==",
+  "_location": "/vue-contextmenujs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-contextmenujs",
+    "name": "vue-contextmenujs",
+    "escapedName": "vue-contextmenujs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-contextmenujs/-/vue-contextmenujs-1.3.13.tgz",
+  "_shasum": "3bdae023c7bd42095e78da4258000250d50ab8ef",
+  "_spec": "vue-contextmenujs",
+  "_where": "/Users/Chrisily/Projects/Wendao/visual_view",
+  "author": {
+    "name": "laziji"
+  },
+  "bugs": {
+    "url": "https://github.com/GitHub-Laziji/menujs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Vue contextmenu",
+  "devDependencies": {
+    "vue": "^2.6.10"
+  },
+  "homepage": "https://github.com/GitHub-Laziji/menujs#readme",
+  "keywords": [
+    "Vue",
+    "Contextmenu",
+    "右键菜单"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "vue-contextmenujs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHub-Laziji/menujs.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name contextmenu index.js",
+    "test": "vue serve ./test/main.js "
+  },
+  "version": "1.3.13"
+}
