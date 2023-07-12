@@ -1,6 +1,6 @@
 <template>
-    <div class="content-box">
-        <div class="title">
+    <div class="content-box" :style="`width:${width};`">
+        <div class="title" :style="`width:${width};`">
             <span class="main-title">
                 {{name.cnName}}
             </span>  
@@ -9,7 +9,7 @@
             </span>
         </div>
   
-        <div class="content">
+        <div class="content" :style="`width:${width};`">
             <div class="content-bg">
                 <img src="~@/assets/images/new/index/index-content-border.png" alt="">
             </div>
@@ -22,9 +22,10 @@
 
     export default {
         props: {
-            name: ''
+            name: Object,
+            width: String,
         },
-        name: 'IndexIndex',
+        name: 'ContentBox',
         components: {
         },
         data() {
@@ -56,6 +57,7 @@
         background: url("~@/assets/images/new/index/index-title-bg.png") left/cover no-repeat;
         padding-left: 30px;
         font-family: Source Han Sans CN;
+        color: #E6E6E6 ;
 
         .main-title {
             font-size: 19px;

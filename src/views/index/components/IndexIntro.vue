@@ -8,7 +8,7 @@
             src="~@/assets/images/new/index/index-intro-border.png"
             alt=""
           />
-          <img src="" alt="" />
+          <img class="intro-pic" src="~@/assets/images/new/index/index-intro-pic.png"/>
         </div>
       </template>
     </content-box>
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import ContentBox from "./ContentBox";
+import ContentBox from "@/components/ContentBox";
 
 export default {
   name: "IndexIntro",
@@ -58,6 +58,13 @@ export default {
     display: inline-block;
     width: 424px;
     height: 163px;
+  }
+
+  .intro-pic {
+    width: 424px;
+    height: 163px;
+    display: inline-block;
+    object-fit: cover;
   }
 }
 </style>

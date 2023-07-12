@@ -1,7 +1,7 @@
 <template>
     <div class="index-topbar">
         <div class="left">
-            <span class="text">指数</span>
+            <span class="text" :class="mod == 'index' ? 'hl' : ''">指数</span>
             <span class="line"></span>
             <span class="text">交易数据</span>
             <span class="line"></span>
@@ -29,6 +29,9 @@
 
     export default {
         name: 'IndexTopBar',
+        props: {
+            mod: ''
+        },
         components: {
         },
         data() {
@@ -73,6 +76,7 @@
         position: relative;
         width: 100%;
         height: 115px;
+        color: #E6E6E6;
     }
     .right,.center,.left {
         display: inline-block;
@@ -101,6 +105,10 @@
         }
         .text {
             font-size: 15px;
+
+            &.hl {
+                color: #5490CE !important;
+            }
         }
         .line {
             height: 15px;

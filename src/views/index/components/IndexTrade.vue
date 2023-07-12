@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import ContentBox from "./ContentBox";
 import echarts from "echarts";
+import ContentBox from "@/components/ContentBox";
 
 export default {
   name: "IndexTrade",

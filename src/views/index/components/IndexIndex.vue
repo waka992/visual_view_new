@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import ContentBox from "./ContentBox";
+import ContentBox from "@/components/ContentBox";
 import echarts from "echarts";
 
 export default {

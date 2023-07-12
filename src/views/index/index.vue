@@ -42,13 +42,14 @@
 </template>
 
 <script>
-import TopBar from "./components/TopBar";
+import TopBar from '@/components/TopBar'
 import IndexIndex from "./components/IndexIndex";
 import IndexIndustry from "./components/IndexIndustry";
 import IndexIndustry2 from "./components/IndexIndustry2";
 import IndexTrade from "./components/IndexTrade";
 import IndexTrade2 from "./components/IndexTrade2";
 import IndexIntro from "./components/IndexIntro";
+
 // import BackGround from '@/components/BackGround'
 
 export default {
